@@ -16,8 +16,15 @@ Nenhuma biblioteca externa é necessária (apenas random, já inclusa no Python)
 
 ✅ Regras
 
-Pode apostar:
+Primeiro o jogador decide em qual cor irá apostar o seu dinheiro.
 
+O objetivo é acertar em que casa (cada casa tem sua cor) a bola da roleta irá cair.
+
+Caso o usuário acerte a casa na cor vermelha ou preta, seu saldo é multiplicado por x2.
+
+Caso o usuário acerte a casa na cor branca, o seu saldo é multiplicado por x14.
+
+Caso erre a cor da casa em que a bola caiu, o usuário perde o seu dinheiro.
 
 O jogo continua até o saldo zerar ou o jogador sair.
 
@@ -41,6 +48,8 @@ O jogador pode continuar comprando cartas (s) ou parar (n).
 O computador também joga: compra cartas até somar pelo menos 17.
 
 Quem tiver o valor mais próximo de 21 sem ultrapassar vence.
+
+O jogo continua até o saldo zerar ou o jogador sair.
 
 📌 Recursos:
 Aceita múltiplas rodadas.
