@@ -1,82 +1,89 @@
-Projeto da cadeira de Programação de Computadores ministrada pelo professor Jeofton Melo
+  Projeto da cadeira de Programação de Computadores ministrada pelo professor Jeofton Melo
+
+👨‍💻 Projeto Desenvolvido por
+  Este projeto foi realizado como atividade de aprendizado em Python pelos alunos:
+
+  André Santana
+
+  Thiago Henrique
 
 
 🎲 Este projeto contém dois jogos simples de cassino implementados em Python:
 
-1 - Jogo da roleta
+  1 - Jogo da roleta
 
-2 - Jogo de 21 (Blackjack simplificado)
+  2 - Jogo de 21 (Blackjack simplificado)
 
 📦 Requisitos
-Python 3.6 ou superior
+  Python 3.6 ou superior
 
-Nenhuma biblioteca externa é necessária (apenas random, já inclusa no Python)
+  Nenhuma biblioteca externa é necessária (apenas random, já inclusa no Python)
 
 🎡 Jogo da Roleta
 
 ✅ Regras
 
-Primeiro o jogador decide em qual cor irá apostar o seu dinheiro.
+  Primeiro o jogador decide em qual cor irá apostar o seu dinheiro.
 
-O objetivo é acertar em que casa (cada casa tem sua cor) a bola da roleta irá cair.
+  O objetivo é acertar em que casa (cada casa tem sua cor) a bola da roleta irá cair.
+  
+  Caso o usuário acerte a casa na cor vermelha ou preta, seu saldo é multiplicado por x2.
 
-Caso o usuário acerte a casa na cor vermelha ou preta, seu saldo é multiplicado por x2.
+  Caso o usuário acerte a casa na cor branca, o seu saldo é multiplicado por x14.
 
-Caso o usuário acerte a casa na cor branca, o seu saldo é multiplicado por x14.
+  Caso erre a cor da casa em que a bola caiu, o usuário perde o seu dinheiro.
 
-Caso erre a cor da casa em que a bola caiu, o usuário perde o seu dinheiro.
-
-O jogo continua até o saldo zerar ou o jogador sair.
+  O jogo continua até o saldo zerar ou o jogador sair.
 
 📌 Recursos:
-Simulação simples da roleta .
+  Simulação simples da roleta .
 
-Cores simuladas: vermelho, preto e branco.
+  Cores simuladas: vermelho, preto e branco.
 
-Entrada de valores validada.
+  Entrada de valores validada.
 
 🃏 Jogo de 21 (Blackjack)
 
 ✅ Regras
 
-O jogador começa com duas cartas com valores entre 1 e 11.
+  O jogador começa com duas cartas com valores entre 1 e 11.
 
-O objetivo é chegar o mais próximo possível de 21, sem ultrapassar.
+  O objetivo é chegar o mais próximo possível de 21, sem ultrapassar.
 
-O jogador pode continuar comprando cartas (s) ou parar (n).
+  O jogador pode continuar comprando cartas (s) ou parar (n).
 
-O computador também joga: compra cartas até somar pelo menos 17.
+  O computador também joga: compra cartas até somar pelo menos 17.
 
-Quem tiver o valor mais próximo de 21 sem ultrapassar vence.
+  Quem tiver o valor mais próximo de 21 sem ultrapassar vence.
 
-O jogo continua até o saldo zerar ou o jogador sair.
+  O jogo continua até o saldo zerar ou o jogador sair.
 
 📌 Recursos:
-Aceita múltiplas rodadas.
+  Aceita múltiplas rodadas.
 
-O Ás (valor 11) vira 1 automaticamente se ultrapassar 21.
+  O Ás (valor 11) vira 1 automaticamente se ultrapassar 21.
 
-Interface simples via terminal.
+  Interface simples via terminal.
 
-Loop contínuo até o jogador sair ou perder todo o dinheiro.
+  Loop contínuo até o jogador sair ou perder todo o dinheiro.
 
-Mensagens simples no console.
+  Mensagens simples no console.
 
-Sem uso de símbolos (apenas palavras em caixa alta).
+  Sem uso de símbolos (apenas palavras em caixa alta).
 
 
 
 📚 Aprendizado
-Estes jogos foram feitos com fins educacionais. Eles demonstram:
+  Estes jogos foram feitos com fins educacionais. Eles demonstram:
 
-Uso de estruturas condicionais (if/else)
+  Uso de estruturas condicionais (if/else)
 
-Laços (while)
+  Laços (while)
+  
+  Funções
 
-Funções
+  Manipulação de listas
 
-Manipulação de listas
+  Entrada e saída no terminal
 
-Entrada e saída no terminal
-
-Simulação básica de lógica de jogos de cassino
+  Simulação básica de lógica de jogos de cassino
