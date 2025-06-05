@@ -1,7 +1,6 @@
   Projeto da cadeira de Programação de Computadores ministrada pelo professor Jeofton Melo
 
 👨‍💻 Projeto Desenvolvido por
-  Este projeto foi realizado como atividade de aprendizado em Python pelos alunos:
 
   André Santana
 
